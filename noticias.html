@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Noticias</title>
+    <link  rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+        <div class="container-fluid">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="./nosotros.html">Nosotros <span
+                                                    class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Noticias</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                </div>
+                <h1>Noticias</h1>
+                <br>
+                <h3>La Montaña de la Alegría</h3>
+                <img src="data:image/jpeg;base64,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" alt="niño en la montaña" style="width: 90%">
+                <p>
+                        Participaron seis jóvenes chilenos, dos uruguayos y un argentino todos amputados de una extremidad inferior como secuela del cáncer. Los extranjeros fueron alojados en el Hotel Kennedy a su llegada a Santiago. Permanecieron del 25 al 29 de agosto alojados en la Escuela de Montaña del Ejército, el Hotel Portillo les facilitó los equipos y tickets de andarivel y SkiTotal los vistió con todo el equipo necesario para realizar la actividad.
+
+                        La Fundación cuenta con los equipos especiales para amputados y al contratar un instructor para cada participante, esto les permite aprender rápidamente a esquiar.
+                        Como todos los años el instructor de esquí Patricio Morandé, que también sufrió una amputación producto del cáncer siendo muy joven, fue el encargado de elegir y contratar los instructores.
+                        
+                        En esta oportunidad también participaron la Dra. Ana Laura Rodriguez de Uruguay y la Enfermera Elena Sarabia de Argentina, quienes fueron acompañadas durante la semana por las voluntarias de la Fundación y Sonrisólogas, Susana Alegría y Carola Garabano.
+                </p>
+                <br>
+                <h3>La Montaña de la Alegría</h3>
+                <img src="http://ninoycancer.cl/images2/cena2.jpg" alt="niño en la montaña" style="width: 90%">
+
+                
+                <p>
+                        Participaron seis jóvenes chilenos, dos uruguayos y un argentino todos amputados de una extremidad inferior como secuela del cáncer. Los extranjeros fueron alojados en el Hotel Kennedy a su llegada a Santiago. Permanecieron del 25 al 29 de agosto alojados en la Escuela de Montaña del Ejército, el Hotel Portillo les facilitó los equipos y tickets de andarivel y SkiTotal los vistió con todo el equipo necesario para realizar la actividad.
+
+                        La Fundación cuenta con los equipos especiales para amputados y al contratar un instructor para cada participante, esto les permite aprender rápidamente a esquiar.
+                        Como todos los años el instructor de esquí Patricio Morandé, que también sufrió una amputación producto del cáncer siendo muy joven, fue el encargado de elegir y contratar los instructores.
+                        
+                        En esta oportunidad también participaron la Dra. Ana Laura Rodriguez de Uruguay y la Enfermera Elena Sarabia de Argentina, quienes fueron acompañadas durante la semana por las voluntarias de la Fundación y Sonrisólogas, Susana Alegría y Carola Garabano.
+                </p>
+
+
+                <footer class="footer">
+                    <div class="row">
+                        <div class="offset-md-4 col-md-4 offset-md-4">
+                            <h3>Estamos Ubicanos en:</h3>
+                             <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447665!2d-70.53933968495386!3d-33.383878980793114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1556814336363!5m2!1ses-419!2scl"
+                                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+                               
+                        </div>
+                     </div>
+                        
+                    <div class="row"><div class="col-md-12">
+                        <table width="100%" border="0">
+                            <tbody>
+                                <tr>
+                                    <td colspan="2">
+                                        <div align="left"><img src="http://ninoycancer.cl/images2/titulos/contacto.gif"
+                                                    width="216" height="24"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td width="202">
+                                        <div align="left"><span class="style14">
+                                            <font color="#006699" face="Arial, Helvetica, sans-serif"><br>
+                                            </font>
+                                            </span>
+                                        </div>
+                                    </td>
+                                    <tr>
+                                        <td>
+                                            <div align="left"><span class="style14">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif">Teléfonos:
+                                                    </font>
+                                                </span></div>
+                                        </td>
+                                        <td>
+                                            <div align="left"><span class="style15">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif">+56 2 2217
+                                                        0821 - + 56 2 2217 0811</font>
+                                                </span></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div align="left"><span class="style14">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif">Fax:</font>
+                                                </span></div>
+                                        </td>
+                                        <td>
+                                            <div align="left"><span class="style15">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif">+56 2 2217
+                                                        0820</font>
+                                                </span></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div align="left"><span class="style14">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif"> Cta. Cte:
+                                                    </font>
+                                                </span></div>
+                                        </td>
+                                        <td>
+                                            <div align="left"><span class="style15">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif">Banco BCI N°
+                                                        85999997</font>
+                                                </span></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div align="left"><span class="style14">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif">RUT:</font>
+                                                </span></div>
+                                        </td>
+                                        <td>
+                                            <div align="left"><span class="style15">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif"> 72.169.900-5
+                                                    </font>
+                                                </span></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div align="left"><span class="style14">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif">Email:</font>
+                                                </span></div>
+                                        </td>
+                                        <td>
+                                            <div align="left"><span class="style15">
+                                                    <font color="#006699" face="Arial, Helvetica, sans-serif">
+                                                        <a
+                                                            href="mailto:fundacion@ninoycancer.cl">fundacion@ninoycancer.cl</a>
+                                                    </font>
+                                                </span></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">Nombre completo</label>
+                                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese tu nombre">
+                                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email </label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Teleefono</label>
+                                  <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu telefono">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                              </form>
+                            <div class="container text-center">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-skype"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+
+
+   <!--siempre debe estar al final junto con los js-->
+   <script
+   src="https://code.jquery.com/jquery-3.4.1.min.js"
+   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+   crossorigin="anonymous"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
